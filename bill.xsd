@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+				   xmlns:billSchema="bill_schema"
+				   elementFormDefault="qualified"
+				   xmlns:tns="bill_generate"
+				   xmlns:ns1="bill_schema"
+				   targetNamespace="bill_schema" version="1.0">
+	<xs:element name="billText" type ="xs:string"/>
+	<xs:element name="success" type ="xs:boolean"/>
+</xs:schema>
